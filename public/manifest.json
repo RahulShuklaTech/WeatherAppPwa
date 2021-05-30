@@ -1,0 +1,47 @@
+{
+  "short_name": "Weather App",
+  "name": "Quick Weather Update",
+  "description": "Application to get weather information",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "logo192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+
+
+
+    {
+      "src": "logo512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "shortcuts":[{
+    "name": "How's weather today?",
+    "short_name": "Today",
+    "description":  "View todays weather",
+    "url": "/today?source=pwa",
+      "icons": [{ "src": "/images/today.png", "sizes": "192x192" }]
+
+  },{
+    "name": "How's weather tomorrow?",
+    "short_name": "Tomorrowy",
+    "description":  "View todays weather",
+    "url": "/tomorrow?source=pwa",
+      "icons": [{ "src": "/images/tomorrow.png", "sizes": "192x192" }]
+
+  }],
+
+  "start_url": "/?source=pwa",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
+
+
